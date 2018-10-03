@@ -11,6 +11,7 @@ import { CsPage } from '../pages/cs/cs';
 import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PAppsPage } from '../pages/p-apps/p-apps';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PAppsPage } from '../pages/p-apps/p-apps';
     CsPage,
     ComunicacionPage,
     DibujoPage,
-    PAppsPage
+    PAppsPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { PAppsPage } from '../pages/p-apps/p-apps';
     CsPage,
     ComunicacionPage,
     DibujoPage,
-    PAppsPage
+    PAppsPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
