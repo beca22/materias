@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CsPage } from '../pages/cs/cs';
 import { ComunicacionPage } from '../pages/comunicacion/comunicacion';
 import { DibujoPage } from '../pages/dibujo/dibujo';
+import { PAppsPage } from '../pages/p-apps/p-apps';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     HistoriaPage,
     CsPage,
     ComunicacionPage,
-    DibujoPage
+    DibujoPage,
+    PAppsPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     HistoriaPage,
     CsPage,
     ComunicacionPage,
-    DibujoPage
+    DibujoPage,
+    PAppsPage
   ],
   providers: [
     StatusBar,
