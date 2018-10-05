@@ -6,6 +6,7 @@ import { ComunicacionPage } from '../comunicacion/comunicacion';
 import { DibujoPage } from '../dibujo/dibujo';
 import { PAppsPage } from '../p-apps/p-apps';
 import { RoboticaPage } from '../robotica/robotica';
+import { PyEPage } from '../py-e/py-e';
 
 @Component({
   selector: 'page-home',
@@ -18,6 +19,7 @@ comunicacion = ComunicacionPage;
 dibujo = DibujoPage;
 papps = PAppsPage;
 robotica = RoboticaPage;
+pye = PyEPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -38,5 +40,8 @@ clickPapps(){
 }
 clickRob(){
   this.navCtrl.push(this.robotica)
+}
+clickPyE(){
+  this.navCtrl.push(this.pye)
 }
 }
