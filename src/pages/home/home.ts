@@ -7,6 +7,7 @@ import { DibujoPage } from '../dibujo/dibujo';
 import { PAppsPage } from '../p-apps/p-apps';
 import { RoboticaPage } from '../robotica/robotica';
 import { PyEPage } from '../py-e/py-e';
+import { MiPage } from '../mi/mi';
 
 @Component({
   selector: 'page-home',
@@ -20,6 +21,7 @@ dibujo = DibujoPage;
 papps = PAppsPage;
 robotica = RoboticaPage;
 pye = PyEPage;
+mi = MiPage
   constructor(public navCtrl: NavController) {
 
   }
@@ -43,5 +45,8 @@ clickRob(){
 }
 clickPyE(){
   this.navCtrl.push(this.pye)
+}
+clickMI(){
+  this.navCtrl.push(this.mi)
 }
 }

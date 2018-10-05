@@ -13,6 +13,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PAppsPage } from '../pages/p-apps/p-apps';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PyEPage } from '../pages/py-e/py-e';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     DibujoPage,
     PAppsPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { PyEPage } from '../pages/py-e/py-e';
     DibujoPage,
     PAppsPage,
     RoboticaPage,
-    PyEPage
+    PyEPage,
+    MiPage
   ],
   providers: [
     StatusBar,
